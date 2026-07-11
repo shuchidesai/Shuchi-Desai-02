@@ -223,7 +223,8 @@ align-items:center;
 .hero-image img{
 width:360px;
 height:420px;
-object-fit:cover;
+object-fit:cover; 
+animation: float 4s ease-in-out infinite;
 
 clip-path:polygon(
 25% 6.7%,
@@ -551,8 +552,18 @@ header{
 }
 
 .hero-image img{
-    width:280px;
-    height:280px;
+    width:260px;
+    height:300px;
+    object-fit:cover;
+
+    clip-path:polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+    );
 }
 
 .hero-text h1{
