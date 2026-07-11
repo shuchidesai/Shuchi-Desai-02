@@ -7,18 +7,15 @@
 
 const themeBtn = document.querySelector(".theme-btn");
 
-themeBtn.addEventListener("click",()=>{
+themeBtn.addEventListener("click", () => {
 
-document.body.classList.toggle("light-mode");
+    document.body.classList.toggle("light-mode");
 
-if(document.body.classList.contains("light-mode")){
-
-themeBtn.innerHTML = "☀️";
-}else{
-
-themeBtn.innerHTML='<i class="fa-solid fa-moon"></i>';
-
-}
+    if(document.body.classList.contains("light-mode")){
+        themeBtn.innerHTML = "☀️";
+    } else {
+        themeBtn.innerHTML = "🌙";
+    }
 
 });
 
