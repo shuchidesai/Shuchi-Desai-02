@@ -751,3 +751,27 @@ transition:.4s;
 transform:translateY(-6px);
 
 }
+
+/* ===== Light Mode Fix ===== */
+
+.light-mode .hero-text h1,
+.light-mode .hero-text h3 {
+    color: #111 !important;
+}
+
+.light-mode .hero-text p,
+.light-mode .desc {
+    color: #555 !important;
+}
+
+.light-mode .logo h2,
+.light-mode .card h4,
+.light-mode .contact-box h3 {
+    color: #111 !important;
+}
+
+.light-mode .card li,
+.light-mode .project-card p,
+.light-mode .contact-box a {
+    color: #555 !important;
+}
