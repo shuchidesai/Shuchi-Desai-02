@@ -12,13 +12,9 @@ themeBtn.addEventListener("click",()=>{
 document.body.classList.toggle("light-mode");
 
 if(document.body.classList.contains("light-mode")){
-
-themeBtn.innerHTML='<i class="fa-solid fa-sun"></i>';
-
+    themeBtn.innerHTML='<i class="fa-solid fa-moon"></i>';
 }else{
-
-themeBtn.innerHTML='<i class="fa-solid fa-moon"></i>';
-
+    themeBtn.innerHTML='<i class="fa-solid fa-sun"></i>';
 }
 
 });
