@@ -247,7 +247,10 @@ clip-path\:polygon(
 0% 50%
 );
 
+border:5px solid #3b82f6;
+
 box-shadow:0 15px 35px rgba(0,0,0,.25);
+
 transition:.4s ease;
 }
 
@@ -679,27 +682,27 @@ color:#111;
 
 }
 .light-mode .hero-text h1{
-color:#111;
+    color:#111;
 }
 
 .light-mode .hero-text h3{
-color:#111;
+    color:#111;
 }
 
 .light-mode .hero-text p{
-color:#555;
+    color:#555;
 }
 
 .light-mode .desc{
-color:#444;
+    color:#444;
 }
 
 .light-mode .logo h2{
-color:#111;
+    color:#111;
 }
 
 .light-mode footer{
-color:#555;
+    color:#555;
 }
 
 .light-mode .card h4,
@@ -707,15 +710,17 @@ color:#555;
 .light-mode .about-box,
 .light-mode .card li,
 .light-mode .contact-box a{
-color:#333;
+    color:#333;
 }
 
 .light-mode .btn-outline{
-color:#111;
-border-color:#3b82f6;
+    color:#111;
+    border-color:#3b82f6;
 }
 
-.light-mode .btn-outline\:hover
+.light-mode .btn-outline:hover{
+    color:#fff;
+}
 .active{
 
 color:#3b82f6 !important;
@@ -782,28 +787,4 @@ transition:.4s;
 
 transform\:translateY(-6px);
 
-}
-
-/\* ===== Light Mode Fix ===== \*/
-
-.light-mode .hero-text h1,
-.light-mode .hero-text h3 {
-color: #111 !important;
-}
-
-.light-mode .hero-text p,
-.light-mode .desc {
-color: #555 !important;
-}
-
-.light-mode .logo h2,
-.light-mode .card h4,
-.light-mode .contact-box h3 {
-color: #111 !important;
-}
-
-.light-mode .card li,
-.light-mode .project-card p,
-.light-mode .contact-box a {
-color: #555 !important;
-}    
+}    ( a maro style.css no code ama kaho kya changes karu light mode mate )
