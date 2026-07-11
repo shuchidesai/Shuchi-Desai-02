@@ -644,7 +644,46 @@ background:white;
 color:#111;
 
 }
+.light-mode .hero-text h1{
+    color:#111;
+}
 
+.light-mode .hero-text h3{
+    color:#111;
+}
+
+.light-mode .hero-text p{
+    color:#555;
+}
+
+.light-mode .desc{
+    color:#444;
+}
+
+.light-mode .logo h2{
+    color:#111;
+}
+
+.light-mode footer{
+    color:#555;
+}
+
+.light-mode .card h4,
+.light-mode .project-card p,
+.light-mode .about-box,
+.light-mode .card li,
+.light-mode .contact-box a{
+    color:#333;
+}
+
+.light-mode .btn-outline{
+    color:#111;
+    border-color:#3b82f6;
+}
+
+.light-mode .btn-outline:hover{
+    color:#fff;
+}
 .active{
 
 color:#3b82f6 !important;
